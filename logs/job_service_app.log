@@ -1,0 +1,17 @@
+2021-10-03 22:21:41,694 - werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-10-03 22:21:41,695 - werkzeug - INFO -  * Running on http://10.104.68.227:9000/ (Press CTRL+C to quit)
+2021-10-03 22:35:38,044 - job_service - INFO - In Get All Jobs API
+2021-10-03 22:35:38,044 - job_dao - INFO - In Add Job DB Service
+2021-10-03 22:35:38,072 - job_dao - INFO - In Finally of DB Connection
+2021-10-03 22:35:38,076 - job_dao - INFO - Query executed successfully select * from jobs
+2021-10-03 22:35:38,076 - job_dao - INFO - Successfully get the jobs [(917031, 'Dina', 'Staff2', 'Java Cloud'), (265905, 'Ram', 'Senior Staff', 'Cloud'), (39748, 'Ramu', 'Sr MTS', 'Python')]
+2021-10-03 22:35:38,077 - job_service - INFO - Get jobs from DB is [{"jobid": 917031, "clientname": "Dina", "jobprofile": "Staff2", "jobrequirements": "Java Cloud"}, {"jobid": 265905, "clientname": "Ram", "jobprofile": "Senior Staff", "jobrequirements": "Cloud"}, {"jobid": 39748, "clientname": "Ramu", "jobprofile": "Sr MTS", "jobrequirements": "Python"}]
+2021-10-03 22:35:38,077 - werkzeug - INFO - 127.0.0.1 - - [03/Oct/2021 22:35:38] "GET /jobservice/getalljobs HTTP/1.1" 200 -
+2021-10-03 22:42:17,230 - job_service - INFO - In Get All Jobs API
+2021-10-03 22:42:17,230 - job_dao - INFO - In Add Job DB Service
+2021-10-03 22:42:17,244 - job_dao - INFO - In Finally of DB Connection
+2021-10-03 22:42:17,248 - job_dao - INFO - Query executed successfully select * from jobs
+2021-10-03 22:42:17,248 - job_dao - INFO - Successfully get the jobs [(917031, 'Dina', 'Staff2', 'Java Cloud'), (265905, 'Ram', 'Senior Staff', 'Cloud'), (39748, 'Ramu', 'Sr MTS', 'Python')]
+2021-10-03 22:42:17,248 - job_service - INFO - Get jobs from DB is [{"jobid": 917031, "clientname": "Dina", "jobprofile": "Staff2", "jobrequirements": "Java Cloud"}, {"jobid": 265905, "clientname": "Ram", "jobprofile": "Senior Staff", "jobrequirements": "Cloud"}, {"jobid": 39748, "clientname": "Ramu", "jobprofile": "Sr MTS", "jobrequirements": "Python"}]
+2021-10-03 22:42:17,248 - werkzeug - INFO - 127.0.0.1 - - [03/Oct/2021 22:42:17] "GET /jobservice/getalljobs HTTP/1.1" 200 -
