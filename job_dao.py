@@ -16,7 +16,7 @@ def getMySQLConnection():
 
         connection_config_dict = {
             'user': 'edureka',
-            'password': 'edureka',
+            'password': 'edureka123',
             'host': dbhostname,
             'port': '3306',
             'database': 'dinasys',
